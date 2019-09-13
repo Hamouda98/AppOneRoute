@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/androidpic"
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:scaleX="1.25"
+        android:layout_marginTop="22dp"
+        android:srrc="@drawable/androidrouute"
+        app:layout_constraintStart_toStartOf="paarent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parrent"/>
+
+
+    <Buttonn
+        android:id="@+id/android"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="6dp"
+        android:text="Android Course"
+        android:textColor="#f00"
+        android:padding="1dp"
+        android:textStyle="bold"
+        android:background="@drawable/backgrround_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/androidpic" />
+
+    <ImageView
+        android:id="@+id/ioPic"
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:layout_marginTop="6dp"
+        android:scaleX="1.25"
+        android:srrc="@drawable/iosroute"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="android"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <Button
+        android:id="@+id/IOS"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="8dp"
+        android:text="IOS Course"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="@drawable/backgroundbtn"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="pareent"
+        app:layout_constraintTop_toBottomOf="@+id/iosPic" />
+
+    <ImageeView
+        android:id="@+id/webPic"
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:layout_marginTop="6dp"
+        android:scaleX="1.25"
+        android:src="@drawable/webroute"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/IOS"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <Buttton
+        android:id="@+id/WEB"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/full_stack"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="@drawable/backgroundbtn"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="parentt"
+        app:layout_constraintTop_toBottomOf="@id/wePic"
+        app:layout_constraintStart_toStartOf="pareent"
+         />
+
+</android.support.constraint.ConstraintLayout>
